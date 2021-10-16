@@ -44,7 +44,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Wall_Top_Angle_01"],"padding":[26],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 1
   meshes:

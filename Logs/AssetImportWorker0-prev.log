@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/tomto/Desktop/Thomas Coromandel/Thomas Coromandel/Oculus VR
+C:/Users/tomto/Documents/GitHub/Oculus VR/Oculus-VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57663
-Successfully changed project path to: C:/Users/tomto/Desktop/Thomas Coromandel/Thomas Coromandel/Oculus VR
-C:/Users/tomto/Desktop/Thomas Coromandel/Thomas Coromandel/Oculus VR
+54136
+Successfully changed project path to: C:/Users/tomto/Documents/GitHub/Oculus VR/Oculus-VR
+C:/Users/tomto/Documents/GitHub/Oculus VR/Oculus-VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.94 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 78.69 ms, found 29 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tomto/Desktop/Thomas Coromandel/Thomas Coromandel/Oculus VR/Assets
+[Subsystems] Discovering subsystems at path C:/Users/tomto/Documents/GitHub/Oculus VR/Oculus-VR/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001623 seconds.
+Registered in 0.001704 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.60 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 59.51 ms, found 29 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.990 seconds
+- Completed reload, in  1.159 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004612 seconds.
+Registered in 0.008113 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.42 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 56.88 ms, found 29 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -63,335 +63,95 @@ RoslynAnalysisRunner has terminated.
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomto\Desktop\Thomas Coromandel\Thomas Coromandel\Oculus VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomto\Desktop\Thomas Coromandel\Thomas Coromandel\Oculus VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\tomto\Documents\GitHub\Oculus VR\Oculus-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\tomto\Documents\GitHub\Oculus VR\Oculus-VR\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
+- Completed reload, in  1.440 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1707 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.9 MB.
-System memory in use after: 81.8 MB.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 29 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2238 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.9 MB.
+System memory in use after: 116.8 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2152.
-Total: 2.279200 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.101300 ms MarkObjects: 1.879900 ms  DeleteObjects: 0.052800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/HDeckContent/DoorOpen.wav
-  artifactKey: Guid(ed852bac71127ec41a3f68ce8629668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/DoorOpen.wav using Guid(ed852bac71127ec41a3f68ce8629668d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484618625412bb2fc8d6a094b9172138') in 0.106008 seconds
-  Import took 0.109208 seconds .
+Unloading 140 unused Assets to reduce memory usage. Loaded Objects now: 2660.
+Total: 2.671300 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.106100 ms  DeleteObjects: 0.211800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/HDeckContent/DoubleDoor.wav
-  artifactKey: Guid(fe366fe5c8546544290f91adddd82368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/DoubleDoor.wav using Guid(fe366fe5c8546544290f91adddd82368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e6101dba8737c71a30f6d5633b75fe') in 0.020022 seconds
-  Import took 0.022700 seconds .
+  path: Assets/HDeckContent/Materials/m_Ship.mat
+  artifactKey: Guid(f8d15df95b7ef5a4ead9604b3e5b6597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDeckContent/Materials/m_Ship.mat using Guid(f8d15df95b7ef5a4ead9604b3e5b6597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f817b920efd2e2b1e3d0dca7e7598aa9') in 0.095684 seconds
+  Import took 0.099233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/HDeckContent/DoorClose.wav
-  artifactKey: Guid(93ecebebf29f781469a9fae91a301cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/DoorClose.wav using Guid(93ecebebf29f781469a9fae91a301cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaca3b418898253e1990bd133c8d9fb9') in 0.015687 seconds
-  Import took 0.018488 seconds .
+  Time since last request: 182.492722 seconds.
+  path: Assets/F3_Corvette/Meshes/Materials/F3_Grey.mat
+  artifactKey: Guid(09dd2f5ce58255745ac293edac05479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/F3_Corvette/Meshes/Materials/F3_Grey.mat using Guid(09dd2f5ce58255745ac293edac05479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0599454962f254e3d6507aa7495ed0e6') in 0.029617 seconds
+  Import took 0.034784 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/HDeckContent/Materials
-  artifactKey: Guid(0dd4046725c67d64ca782badaf9b6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Materials using Guid(0dd4046725c67d64ca782badaf9b6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008cb93ee8d1859541bd42c6ee532639') in 0.005935 seconds
-  Import took 0.008928 seconds .
+  Time since last request: 639.221166 seconds.
+  path: Assets/HDeckContent/Textures/CameraCargo 1.mat
+  artifactKey: Guid(f145f454bf1bad14f883846e53d4e225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDeckContent/Textures/CameraCargo 1.mat using Guid(f145f454bf1bad14f883846e53d4e225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f01ce8081b5d9b04777e6dc4d1db5d2') in 0.035942 seconds
+  Import took 0.040288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/HDeckContent/Chime.wav
-  artifactKey: Guid(da6535b1202f48d418f166fcf0345012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Chime.wav using Guid(da6535b1202f48d418f166fcf0345012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31412afba096bca47a07336a12cb83cb') in 0.019395 seconds
-  Import took 0.022276 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/HDeckContent/Textures/CameraMain.mat
+  artifactKey: Guid(3a17b81704546bb4b9a108c9489fe780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDeckContent/Textures/CameraMain.mat using Guid(3a17b81704546bb4b9a108c9489fe780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9741286c02763e9ade2f142ce4337f') in 0.008761 seconds
+  Import took 0.012789 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/HDeckContent/SingleDoor.wav
-  artifactKey: Guid(47882c1a771b69346b8cc03f4acf0156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/SingleDoor.wav using Guid(47882c1a771b69346b8cc03f4acf0156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67fc2646b004efd4c96f2a47483242f') in 0.017349 seconds
-  Import took 0.020348 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/HDeckContent/Textures/CameraCargo 1.mat
+  artifactKey: Guid(f145f454bf1bad14f883846e53d4e225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDeckContent/Textures/CameraCargo 1.mat using Guid(f145f454bf1bad14f883846e53d4e225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f01ce8081b5d9b04777e6dc4d1db5d2') in 0.039603 seconds
+  Import took 0.043529 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.747960 seconds.
-  path: Assets/HDeckContent/Prefabs/Bench.prefab
-  artifactKey: Guid(f0920ff58676fd84fa60804928a58cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/Bench.prefab using Guid(f0920ff58676fd84fa60804928a58cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdd40f68ba6afcec5f786c654fee6af') in 0.061353 seconds
-  Import took 0.064709 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/HDeckContent/Textures/CameraCargo.mat
+  artifactKey: Guid(0cb0728274f71ce429cfd395103f0328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDeckContent/Textures/CameraCargo.mat using Guid(0cb0728274f71ce429cfd395103f0328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd613f97bd329c7de32d5dc9835fcd2') in 0.022513 seconds
+  Import took 0.026142 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/HDeckContent/Prefabs/DoubleDoorAnchor.prefab
-  artifactKey: Guid(9d2c6cf9f04f936419889ed8415c626c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/DoubleDoorAnchor.prefab using Guid(9d2c6cf9f04f936419889ed8415c626c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae8fcb7bb38c27a888179681377cee7') in 0.051105 seconds
-  Import took 0.053938 seconds .
+  Time since last request: 208.555495 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Materials/Unique/Force Field.mat
+  artifactKey: Guid(32a76832b79e84347ad9df08b12709c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Materials/Unique/Force Field.mat using Guid(32a76832b79e84347ad9df08b12709c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1287c6b39994d164d9e5931bc9774d72') in 0.014042 seconds
+  Import took 0.018068 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/HDeckContent/Prefabs/Tile.prefab
-  artifactKey: Guid(5c102c9fce718ed47aa99f29ab072c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/Tile.prefab using Guid(5c102c9fce718ed47aa99f29ab072c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bb30df1828fd6b70d1f2d4a3774263') in 0.022901 seconds
-  Import took 0.025798 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Materials/Unique/Plasma (1).mat
+  artifactKey: Guid(07553007ceddacc47bac6a131f3dc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Materials/Unique/Plasma (1).mat using Guid(07553007ceddacc47bac6a131f3dc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19b7ecf4c8dbdb8f53c59f3879f1d8') in 0.042390 seconds
+  Import took 0.046157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/HDeckContent/Prefabs/WallEdgeCurve.prefab
-  artifactKey: Guid(2e3a5e5a38407d74b94e16ee4f3a0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallEdgeCurve.prefab using Guid(2e3a5e5a38407d74b94e16ee4f3a0fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b07a0a1b6189394f1aaee57b423ae7') in 0.031962 seconds
-  Import took 0.034875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/HDeckContent/Prefabs/WallBasicSmall.prefab
-  artifactKey: Guid(f8961bceb115e37418aca6f8c99bf8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallBasicSmall.prefab using Guid(f8961bceb115e37418aca6f8c99bf8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03134c46bdf0675d44b94ece74481be5') in 0.032749 seconds
-  Import took 0.035472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/HDeckContent/Prefabs/ShipBack.prefab
-  artifactKey: Guid(77dd0f187dc649c408a95c7b9c74c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/ShipBack.prefab using Guid(77dd0f187dc649c408a95c7b9c74c751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546212310928ccd224a9f63f45255858') in 0.057953 seconds
-  Import took 0.060462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/HDeckContent/Prefabs/LightBlocker.prefab
-  artifactKey: Guid(6a0948e271b440247837376dc91dbf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/LightBlocker.prefab using Guid(6a0948e271b440247837376dc91dbf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca992b97ac304a732f4d575cdc6313e') in 0.034622 seconds
-  Import took 0.036928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/HDeckContent/Prefabs/WallCorner.prefab
-  artifactKey: Guid(46c20a0f83a7ad449ae6525d103ba89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallCorner.prefab using Guid(46c20a0f83a7ad449ae6525d103ba89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a851f4cecadf560848357b4569f22') in 0.031214 seconds
-  Import took 0.033895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/HDeckContent/Prefabs/RoofCorner.prefab
-  artifactKey: Guid(2a9d302ac470a8245a964d7fa4b0da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/RoofCorner.prefab using Guid(2a9d302ac470a8245a964d7fa4b0da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e8bc20cdecf4f23a465b4c46d8a38') in 0.032775 seconds
-  Import took 0.035429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/HDeckContent/Prefabs/WallWindow1.prefab
-  artifactKey: Guid(4297de40351d4d34db119e4d11e00e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallWindow1.prefab using Guid(4297de40351d4d34db119e4d11e00e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767392b5d178f90af50a5b32ce32193e') in 0.030411 seconds
-  Import took 0.033248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/HDeckContent/Prefabs/ShipFront.prefab
-  artifactKey: Guid(c87ff32e05bdc514db6de9c869c70772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/ShipFront.prefab using Guid(c87ff32e05bdc514db6de9c869c70772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8eba901e9745ea0e1d55f06ee37399') in 0.028558 seconds
-  Import took 0.030965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/HDeckContent/Prefabs/WallArc.prefab
-  artifactKey: Guid(2c06ee81ccb88284c92eba5319ee9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallArc.prefab using Guid(2c06ee81ccb88284c92eba5319ee9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d87f612dcd0bf003d9850bcdf41f69c') in 0.025592 seconds
-  Import took 0.028371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/HDeckContent/Prefabs/HDeckWalls.prefab
-  artifactKey: Guid(0ec587154ada5ab47b9de973997b1220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/HDeckWalls.prefab using Guid(0ec587154ada5ab47b9de973997b1220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69086f9f6e6b38b2acd2b4e5844d3920') in 0.016638 seconds
-  Import took 0.019097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/HDeckContent/Prefabs/DoorAnchor.prefab
-  artifactKey: Guid(27bd7acfe15e57745999d03ec5de8709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/DoorAnchor.prefab using Guid(27bd7acfe15e57745999d03ec5de8709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d4de04433c929bb29e7e4df59cca1f') in 0.011156 seconds
-  Import took 0.013731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/HDeckContent/Prefabs/ObserverTile.prefab
-  artifactKey: Guid(89d286776113f2a44b5a3f0d0eef832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/ObserverTile.prefab using Guid(89d286776113f2a44b5a3f0d0eef832e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40d5283875d6eadc57812eaa788e361') in 0.022998 seconds
-  Import took 0.026095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/HDeckContent/Prefabs/ShipWing1.prefab
-  artifactKey: Guid(a3d68bc72b134614c903353df08772f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/ShipWing1.prefab using Guid(a3d68bc72b134614c903353df08772f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7628063d481cb86a6cfc85b0209177f') in 0.023510 seconds
-  Import took 0.026017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/HDeckContent/Prefabs/RoofEdge.prefab
-  artifactKey: Guid(59170fbaf44b05540875d49750bfb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/RoofEdge.prefab using Guid(59170fbaf44b05540875d49750bfb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b9aa4f2bc61403e5da6a4022cb6586') in 0.024152 seconds
-  Import took 0.026893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/HDeckContent/Prefabs/TinyCorner.prefab
-  artifactKey: Guid(f42508768a4fd4348ae207b4632c3c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/TinyCorner.prefab using Guid(f42508768a4fd4348ae207b4632c3c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d3b163ff4bfc0e1e607b07b2bc172d') in 0.022249 seconds
-  Import took 0.024995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/HDeckContent/Prefabs/DoorWay.prefab
-  artifactKey: Guid(4e1f89fee4d7fe7499581a5d9e764a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/DoorWay.prefab using Guid(4e1f89fee4d7fe7499581a5d9e764a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e90ab9e53280db0b65af78ed0484f64') in 0.024906 seconds
-  Import took 0.027602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/HDeckContent/Prefabs/WallCorner1.prefab
-  artifactKey: Guid(037abb5bb6a702346b12168b20f8b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallCorner1.prefab using Guid(037abb5bb6a702346b12168b20f8b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5a7dbc9acc244ea559ee1af9c9673d') in 0.024042 seconds
-  Import took 0.026849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/HDeckContent/Prefabs/ParticleEffects.prefab
-  artifactKey: Guid(ec1abcf27e50c1c48b6f9368e1f1bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/ParticleEffects.prefab using Guid(ec1abcf27e50c1c48b6f9368e1f1bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6345fbe63d9debd25b5e07e1f65ab57d') in 0.010199 seconds
-  Import took 0.013335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/HDeckContent/Prefabs/WallWindow.prefab
-  artifactKey: Guid(d5aed24e4c4837d49b59824c1f0a284b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallWindow.prefab using Guid(d5aed24e4c4837d49b59824c1f0a284b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf900020f92388179a706f0dbee6dfb') in 0.022585 seconds
-  Import took 0.025610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/HDeckContent/Prefabs/DoorWaySmall.prefab
-  artifactKey: Guid(a64a862583c704a4d9de5b0c7ef6321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/DoorWaySmall.prefab using Guid(a64a862583c704a4d9de5b0c7ef6321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa8462439c4b60abf719d624dd6997e') in 0.023315 seconds
-  Import took 0.026106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/HDeckContent/Prefabs/Light.prefab
-  artifactKey: Guid(7f79fc8e0a3eb2d4da6aa8eb8921f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/Light.prefab using Guid(7f79fc8e0a3eb2d4da6aa8eb8921f1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8292e826ccc41d8b2aec2d9a284cdfec') in 0.024016 seconds
-  Import took 0.026926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/HDeckContent/Prefabs/ShipWing.prefab
-  artifactKey: Guid(340a871b13b52bf4cbf0fbba227a94c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/ShipWing.prefab using Guid(340a871b13b52bf4cbf0fbba227a94c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5677b95de8436740f0ddc405420aa02f') in 0.028005 seconds
-  Import took 0.030466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/HDeckContent/Prefabs/HDeckFloor.prefab
-  artifactKey: Guid(c3006a44e8c10fb4e8c02eae336f493e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/HDeckFloor.prefab using Guid(c3006a44e8c10fb4e8c02eae336f493e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d24a34d7ec73223ca2ca967e613e09') in 0.015957 seconds
-  Import took 0.018567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/HDeckContent/Prefabs/WallCorner2.prefab
-  artifactKey: Guid(db5148951de01cf45b4b1edb64c0a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallCorner2.prefab using Guid(db5148951de01cf45b4b1edb64c0a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771d6b33265412d91368464af30ecf6b') in 0.022989 seconds
-  Import took 0.025959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/HDeckContent/Prefabs/TileSmall.prefab
-  artifactKey: Guid(cdf4ab0e0ea713a4fbdd2c26ee6c9c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/TileSmall.prefab using Guid(cdf4ab0e0ea713a4fbdd2c26ee6c9c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1397cd4acb065f6d50d4ba2a61b7e4') in 0.022027 seconds
-  Import took 0.024905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/HDeckContent/Prefabs/RoofDoor.prefab
-  artifactKey: Guid(46949e22bd355494897145157a68538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/RoofDoor.prefab using Guid(46949e22bd355494897145157a68538d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6c3257854b78954f4c35d3dd989105') in 0.023041 seconds
-  Import took 0.025957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/HDeckContent/Prefabs/WallBasic.prefab
-  artifactKey: Guid(2fc4e65e3caa39b449bdfe926986f692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Prefabs/WallBasic.prefab using Guid(2fc4e65e3caa39b449bdfe926986f692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb549971c7f74740d20aaac7e6b942b2') in 0.021501 seconds
-  Import took 0.024310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.270341 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfe00b75fb990d6969e5318053be25f') in 0.007235 seconds
-  Import took 0.010466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.158812 seconds.
-  path: Assets/HDeckContent/Materials/m_HDeck.mat
-  artifactKey: Guid(5e056f63074de1945bc2db63c0350a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Materials/m_HDeck.mat using Guid(5e056f63074de1945bc2db63c0350a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d16bd5d4fd6a43141ff7e59504447c') in 0.025638 seconds
-  Import took 0.028745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.429071 seconds.
-  path: Assets/HDeckContent/Materials/m_Ship_Interior.mat
-  artifactKey: Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDeckContent/Materials/m_Ship_Interior.mat using Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afbb62db6fb88a9e59c79a3b28b74ee') in 0.017531 seconds
-  Import took 0.020674 seconds .
+  Time since last request: 0.003120 seconds.
+  path: Assets/Ultimate 10 Plus Shaders/Materials/Unique/Plasma (1).mat
+  artifactKey: Guid(07553007ceddacc47bac6a131f3dc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultimate 10 Plus Shaders/Materials/Unique/Plasma (1).mat using Guid(07553007ceddacc47bac6a131f3dc619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d19b7ecf4c8dbdb8f53c59f3879f1d8') in 0.022671 seconds
+  Import took 0.026088 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

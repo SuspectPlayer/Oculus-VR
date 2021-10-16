@@ -9,6 +9,7 @@ public class Rotate : MonoBehaviour
     public float y;
     public float z;
 
+    public bool turnOn;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,18 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.Rotate(new Vector3(x, y, z) * rotationSpeed * Time.deltaTime);
+        if (turnOn)
+        {
+            transform.Rotate(new Vector3(x, y, z) * rotationSpeed * Time.deltaTime);
+        }
+    }
+
+    public void TurnOn()
+    {
+        turnOn = true;
+    }
+    public void TurnOff()
+    {
+        turnOn = false;
     }
 }

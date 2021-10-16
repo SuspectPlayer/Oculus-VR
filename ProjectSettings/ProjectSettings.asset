@@ -128,7 +128,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 2a426b6d124fadb4090155af65354341, type: 2}
+  - {fileID: 5965315601719842307, guid: 30e3dc17de74d8e4ea7a7de6d9f72478, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -572,7 +574,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: BAKERY_INCLUDED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
